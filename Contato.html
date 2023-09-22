@@ -33,30 +33,15 @@
         </li>
 
         <li>
-          <a href="#contato">
+          <a href="Contato.html">
             <i class="fa fa-envelope nav-icon"></i>
             <span class="nav-text">Contato</span>
           </a>
         </li>
-
-        <li>
-          <a href="#notificacoes">
-            <i class="fa fa-bell nav-icon"></i>
-            <span class="nav-text">Notificações</span>
-          </a>
-        </li>
-
-      </ul>
+    </ul>
 
       <ul class="logout">
-        <li>
-          <a href="#configuracoes">
-            <i class="fa fa-cogs nav-icon"></i>
-            <span class="nav-text">configurações</span>
-          </a>
-        </li>
-
-        <li>
+            <li>
           <a href="#logout">
             <i class="fa fa-right-from-bracket nav-icon"></i>
             <span class="nav-text">Logout</span>     
@@ -64,39 +49,18 @@
         </li>  
       </ul>
    </nav>
-   <section class="contact">
-    <div class="content">
-        <h2>Entre em contato conosco</h2>
-        <p>Caso tenha sugestões, duvidas ou queira indicar conteúdos para o nosso blog envie sua mensagem</p>
-    </div>
-    <div class="container">
-        <div class="contactinfo">
-            <div class="box">
-                <div class="icon"><ion-icon name="location-outline"></ion-icon></div>
-                <div class="text">
-                    <h3>Endereço</h3>
-                    <p>402671 Sugar Camp Road<br>Owatonna,Minnesota,<br>55025060</p>
-            </div>
-            </div>
-            <div class="box">
-                <div class="icon"><ion-icon name=call-outline></ion-icon></div>
-                <div class="text">
-                    <h3>Telefone (WhatsApp)</h3>
-                    <p>000-000-0000</p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-<div class="box">
-    <div class="icon"><ion-icon name=email-outline></ion-icon></div>
-    <div class="text">
-        <h3>E-mail</h3>
-        <p>wrub7d@gmail.com</p>
-    </div>
-</div>
-<h2 class="text">Conecte-se conosco</h2>
-<ul class="sci">
-    
-</ul>
-   </section>
+<!--A div <container> é um tipo de DIV que possui a capacidade de agrupar outros elementos e assim, mantem as mesmas carctéristicas de formatação.-->
+   <div class="container">
+<!--A tag <form> é para indicar que foi iniciado um formulário-->
+<!--O atributo <method> é usadop ara indicar qual o método de submissão ou método HTTP vai ser usado para enviar os dados-->
+    <form action="#" class="form-contact" method="post" tabindex="1">
+<!--A tag <input> acompanhada pelo <type> (que é uma teg de tipo) foi usada para criar controle interativos para o formulário para receber dados do usuário.-->
+      <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />
+      <input type="email" class="form-contact-input" name="email" placeholder="Email" required />
+      <input type="tel" class="form-contact-input" name="tel" placeholder="Telefone" />
+<!--O elemento <textarea> é um campo para entrada de texto, que permite que um valor de texto potencialmente longo.-->     
+      <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>
+<!--A tag <button> foi usada para criar um botão para de enviar assim criando interatividade-->      
+      <button type="submit" class="form-contact-button">Enviar</button>
+    </form>
+  </div>

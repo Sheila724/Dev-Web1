@@ -1,16 +1,20 @@
+/*como o nome mesmo já diz a tag <body> é o corpo do site*/
 body {
+/*A <margin> é uma propriedade que é utilizada para fazer distanciamento da parte externa, ao redor do elemento, e pode ser definida com diferentes unidades*/
   margin-top: 10px;
   margin-right: 30px;
   margin-bottom:50px;
   margin-left:80px;
 }
+/*Essa parte do CSS foi para fazer que o elemento de texto do HTML seja renderizado como bloco*/
 section {
   display: block
 }
 
+/*O @import serve para importar regas de estilo de outros arquivos CSS ou seja de outras folhas de estilo, neste caso foi usado para importar desta URL*/
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-/* DEFAULT VALUES */
+/*O <before> e <after> são pseudo-elementos, que foram utilizados para fazer o efeito decorativo*/
 *,
 *::before,
 *::after {
@@ -359,4 +363,69 @@ body{
     letter-spacing: 16px;
   }
 }
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
 
+.form-contact {
+  width: 100%;
+  font-family: "Arial", Times, serif;
+}
+
+.form-contact-input {
+  width: 100%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+}
+
+.form-contact-textarea {
+  width: 100%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+  padding-top: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Arial", Times, serif;
+}
+
+.form-contact-button {
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  color: #fff;
+  height: 40px;
+  opacity: .8;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: #B22222;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #500707;
+  border-right: 1px solid #500707;
+  transition: 1s;
+}
+
+.form-contact-button:hover {
+  opacity: 1;
+}
