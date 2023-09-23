@@ -102,7 +102,6 @@ body {
   left: 0;
   bottom: 0;
 }
-/*A class <li.active> é para ajudar na interação também para ativar o menu quando clicamos e a <a focus> é para descar o elemento que está ativo na página no caso qual botão do menu que foi ativado*/
 .main-menu li:hover > a, .main-menu li.active > a, .main-menu li > a:focus {
   text-decoration: none;
   color: #fff;
@@ -297,32 +296,4 @@ body{
 
 .form-contact-button:hover {
   opacity: 1;
-}
-html,
-body{
-  height: 100%;
-  min-height: 450px;
-  font-family: "Dosis", sans-serif;
-  font-size: 32px;
-  font-weight: 500;
-  color: #5d7399
-}
-.content {
-  height: 100%;
-  position: relative;
-  z-index: 1;
-  background-color: #d2e1ec;
-  background-image: linear-gradient(to bottom, #bbcfe1 0%, #e8f2f6 80%);
-
-  overflow: hidden;
-}
-.snow {
-  position: absolute;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  z-index: 20;
-}
-.main-text{
-  padding:
 }
