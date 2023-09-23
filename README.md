@@ -1,9 +1,16 @@
-# Dev - Web1
+#Título: Dev - Web1
+
+##Apresentação ✔
 
 Aqui apresento meu primeiro site, onde foi utilizado as linguagens de marcação HTML e CSS, essas linguagens foram utilizadas, pois foi uma atividade realizada para faculdade.
+
 ## 🛠️ Construído com
 
 Foram utilizadas as liguagens HTML e CSS e para programação foi utilizado o Visual Studio Code
+
+##Link do site hospedado 📁
+
+https://stephenkingreidoterror.netlify.app/
 
 ## ✒️ Autor
 
